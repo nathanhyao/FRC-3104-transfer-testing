@@ -27,6 +27,8 @@ public class Robot extends TimedRobot {
 
   VictorSP LeftDrive_1 = new VictorSP(0);
   VictorSP LeftDrive_2 = new VictorSP(1);
+  VictorSP RightDrive_1 = new VictorSP(2);
+  VictorSP RightDrive_2 = new VictorSP(3);
   
   /**
    * This function is run when the robot is first started up and should be
